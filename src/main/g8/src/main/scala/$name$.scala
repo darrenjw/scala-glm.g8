@@ -1,6 +1,5 @@
 /*
-Stub.scala
-Stub for Scala Breeze code
+Stub for scala.glm code
 */
 
 object Stub {
