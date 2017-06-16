@@ -2,11 +2,14 @@ import org.scalatest.FlatSpec
 
 class SetSpec extends FlatSpec {
 
- "A Poisson(10.0)" should "have mean 10.0" in {
-    import breeze.stats.distributions.Poisson
-    val p = Poisson(10.0)
-    val m = p.mean
-    assert(math.abs(m - 10.0) < 0.000001)
+  import Utils._
+
+  "backSolve" should "invert correctly" in {
+    val A = DenseMatrix((4,1),(0,2)) map (_.toDouble)
+    val x = DenseVector(3.0,-2.0)
+    val y = A * x
+    val xx = backSolve(A,y)
+    assert (norm(x-xx) < 0.00001)
   }
 
 }
