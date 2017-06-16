@@ -2,7 +2,8 @@ import org.scalatest.FlatSpec
 
 class SetSpec extends FlatSpec {
 
-  import Utils._
+  import scalaglm.Utils.backSolve
+  import breeze.linalg._
 
   "backSolve" should "invert correctly" in {
     val A = DenseMatrix((4,1),(0,2)) map (_.toDouble)
