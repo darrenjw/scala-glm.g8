@@ -1,9 +1,10 @@
-A [Giter8](http://www.foundweekends.org/giter8/) template for [Scala Breeze](https://github.com/scalanlp/breeze)!
+A [Giter8](http://www.foundweekends.org/giter8/) template for [scala-glm](https://github.com/darrenjw/scala-glm)!
 
-* Breeze 0.13, Scala 2.12.1
+* scala 2.12.1
+* scala-glm 0.3
 
 ```bash
-sbt new darrenjw/breeze.g8
+sbt new darrenjw/scala-glm.g8
 ```
 
 Template license
