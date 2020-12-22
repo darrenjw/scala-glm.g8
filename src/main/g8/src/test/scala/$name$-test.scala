@@ -1,6 +1,8 @@
-import org.scalatest.FlatSpec
+import org.scalatest._
+import flatspec._
+import matchers._
 
-class SetSpec extends FlatSpec {
+class SetSpec extends AnyFlatSpec {
 
   import scalaglm.Utils.backSolve
   import breeze.linalg._

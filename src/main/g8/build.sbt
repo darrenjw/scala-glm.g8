@@ -7,8 +7,8 @@ scalacOptions ++= Seq(
 )
 
 libraryDependencies  ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.0.1" % "test",
-  "com.github.darrenjw" %% "scala-glm" % "0.3"
+  "org.scalatest" %% "scalatest" % "3.2.2" % "test",
+  "com.github.darrenjw" %% "scala-glm" % "0.4"
 )
 
 resolvers ++= Seq(
@@ -18,5 +18,5 @@ resolvers ++= Seq(
     "https://oss.sonatype.org/content/repositories/releases/"
 )
 
-scalaVersion := "2.12.1"
+scalaVersion := "2.13.4"
 
