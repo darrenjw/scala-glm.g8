@@ -2,7 +2,7 @@ import org.scalatest._
 import flatspec._
 import matchers._
 
-class SetSpec extends AnyFlatSpec {
+class LinalgSpec extends AnyFlatSpec {
 
   import scalaglm.Utils.backSolve
   import breeze.linalg._
