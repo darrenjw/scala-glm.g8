@@ -2,7 +2,7 @@ import org.scalatest._
 import flatspec._
 import matchers._
 
-class LinalgSpec extends AnyFlatSpec {
+class LinalgSpec extends AnyFlatSpec with should.Matchers {
 
   import scalaglm.Utils.backSolve
   import breeze.linalg._
@@ -12,7 +12,7 @@ class LinalgSpec extends AnyFlatSpec {
     val x = DenseVector(3.0,-2.0)
     val y = A * x
     val xx = backSolve(A,y)
-    assert (norm(x-xx) < 0.00001)
+    norm(x-xx) < 0.00001 shouldBe true
   }
 
 }
