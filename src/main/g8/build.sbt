@@ -6,6 +6,8 @@ scalacOptions ++= Seq(
   "-unchecked", "-deprecation", "-feature"
 )
 
+enablePlugins(MdocPlugin)
+
 libraryDependencies  ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.2" % "test",
   "com.github.darrenjw" %% "scala-glm" % "0.4"
