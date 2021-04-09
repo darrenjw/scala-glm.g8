@@ -1,7 +1,7 @@
 A [Giter8](http://www.foundweekends.org/giter8/) template for [scala-glm](https://github.com/darrenjw/scala-glm)!
 
 * scala 2.13.4
-* scala-glm 0.4
+* scala-glm 0.5
 
 ```bash
 sbt new darrenjw/scala-glm.g8
@@ -9,7 +9,7 @@ sbt new darrenjw/scala-glm.g8
 
 Template license
 ----------------
-Written in 2017 by Darren Wilkinson darrenjwilkinson@btinternet.com
+Originally written in 2017 by Darren Wilkinson darrenjwilkinson@btinternet.com
 
 To the extent possible under law, the author(s) have dedicated all copyright and related
 and neighboring rights to this template to the public domain worldwide.
