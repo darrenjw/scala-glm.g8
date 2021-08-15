@@ -9,10 +9,10 @@ scalacOptions ++= Seq(
 enablePlugins(MdocPlugin)
 
 libraryDependencies  ++= Seq(
-  "org.scalatest" %% "scalatest" % "3.2.2" % "test",
-  "org.scalactic" %% "scalactic" % "3.2.2" % "test",
-  "org.scalatestplus" %% "scalacheck-1-14" % "3.2.2.0" % "test",
-  "com.github.darrenjw" %% "scala-glm" % "0.5"
+  "org.scalatest" %% "scalatest" % "3.2.9" % "test",
+  "org.scalactic" %% "scalactic" % "3.2.9" % "test",
+  "org.scalatestplus" %% "scalacheck-1-15" % "3.2.9.0" % "test",
+  "com.github.darrenjw" %% "scala-glm" % "0.6"
 )
 
 resolvers ++= Seq(
@@ -22,5 +22,5 @@ resolvers ++= Seq(
     "https://oss.sonatype.org/content/repositories/releases/"
 )
 
-scalaVersion := "2.13.5"
+scalaVersion := "3.0.1"
 
