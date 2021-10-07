@@ -1,7 +1,8 @@
 A [Giter8](http://www.foundweekends.org/giter8/) template for [scala-glm](https://github.com/darrenjw/scala-glm)!
 
 * scala 3.0.1
-* scala-glm 0.6
+* breeze 2.0
+* scala-glm 0.7
 
 ```bash
 sbt new darrenjw/scala-glm.g8

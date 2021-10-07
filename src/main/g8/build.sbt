@@ -12,7 +12,7 @@ libraryDependencies  ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.9" % "test",
   "org.scalactic" %% "scalactic" % "3.2.9" % "test",
   "org.scalatestplus" %% "scalacheck-1-15" % "3.2.9.0" % "test",
-  "com.github.darrenjw" %% "scala-glm" % "0.6"
+  "com.github.darrenjw" %% "scala-glm" % "0.7"
 )
 
 resolvers ++= Seq(
