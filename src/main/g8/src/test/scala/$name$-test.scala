@@ -4,8 +4,7 @@ import matchers._
 
 // Unit tests
 
-class LinalgSpec extends AnyFlatSpec
-    with should.Matchers {
+class LinalgSpec extends AnyFlatSpec with should.Matchers:
 
   import scalaglm.Utils.backSolve
   import breeze.linalg._
@@ -18,7 +17,6 @@ class LinalgSpec extends AnyFlatSpec
     norm(x-xx) < 0.00001 shouldBe true
   }
 
-}
 
 // Property-based tests
 
@@ -26,7 +24,7 @@ import org.scalatestplus.scalacheck.ScalaCheckPropertyChecks
 
 class LinalgProps extends AnyFlatSpec
     with should.Matchers
-    with ScalaCheckPropertyChecks {
+    with ScalaCheckPropertyChecks:
 
   import scalaglm.Utils.backSolve
   import breeze.linalg._
@@ -43,4 +41,4 @@ class LinalgProps extends AnyFlatSpec
   }
 
 
-}
+
