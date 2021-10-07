@@ -3,7 +3,7 @@ Stub for scala-glm code
 */
 
 import scalaglm.Pca
-import breeze.linalg._
+import breeze.linalg.*
 
 @main def sglm() =
   val X = DenseMatrix((1.0,1.5),(1.5,2.0),(2.0,1.5))
