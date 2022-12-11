@@ -11,7 +11,7 @@ enablePlugins(MdocPlugin)
 libraryDependencies  ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.14" % "test",
   "org.scalactic" %% "scalactic" % "3.2.14" % "test",
-  "org.scalatestplus" %% "scalacheck-1-15" % "3.2.14.0" % "test",
+  "org.scalatestplus" %% "scalacheck-1-17" % "3.2.14.0" % "test",
   "com.github.darrenjw" %% "scala-glm" % "0.8"
 )
 
