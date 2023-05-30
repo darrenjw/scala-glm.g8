@@ -1,6 +1,6 @@
 A [Giter8](http://www.foundweekends.org/giter8/) template for [scala-glm](https://github.com/darrenjw/scala-glm)!
 
-* scala 3.2.1
+* scala 3.3.0
 * breeze 2.1.0
 * scala-glm 0.8
 
