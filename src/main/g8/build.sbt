@@ -12,7 +12,7 @@ libraryDependencies  ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.19" % "test",
   "org.scalactic" %% "scalactic" % "3.2.19" % "test",
   "org.scalatestplus" %% "scalacheck-1-18" % "3.2.19.0" % "test",
-  "com.github.darrenjw" %% "scala-glm" % "0.8"
+  "com.github.darrenjw" %% "scala-glm" % "0.9"
 )
 
 resolvers ++= Seq(
@@ -22,5 +22,5 @@ resolvers ++= Seq(
     "https://oss.sonatype.org/content/repositories/releases/"
 )
 
-scalaVersion := "3.3.3"
+scalaVersion := "3.3.4"
 
